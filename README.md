@@ -14,8 +14,8 @@
 	a) at Custom/Kernel/Output/HTML/Templates/Standard/CustomerLogin.tt,  
 		inside Signup div
 
-	***Input name and id must be same with the definition at Config mapping (e.g: Mobile)!!***  
-	***You may want to build additional css class to check on validation value***  
+	***Input name and id must be same with the definition at Config mapping (e.g: Mobile)!!.***  
+	***You may want to build additional css class to check on validation value.***  	
 
 		<!-- BEGIN ADDITIONAL FIELD -->
 		<div class="NewLine">
@@ -64,7 +64,8 @@
 		#END ADDITIONAL FIELD 
 	
 	
-	b) at Custom/Kernel/Output/HTML/Templates/Standard/CustomerLogin.tt, inside Signup div
+	b) at Custom/Kernel/Output/HTML/Templates/Standard/CustomerLogin.tt,   
+	inside Signup div
 	
 		<!-- BEGIN ADDITIONAL FIELD -->
 		<div class="NewLine">
@@ -75,7 +76,8 @@
 		
 4. (Optional) Manually update $OTRS_HOME/var/httpd/htdocs/skins/Customer/default/css/Core.Login.css 
 
-	Increase height for example 400px for #Slider and #PreLogin. Play around with the css to suit your need.
+	Increase height for example 400px for #Slider and #PreLogin. Play around with the css to suit your need.  
+	
 
 
  [![1.png](https://i.postimg.cc/FKQKdjX2/1.png)](https://postimg.cc/HrBmF8x2)  
