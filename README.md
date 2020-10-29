@@ -74,12 +74,14 @@
 		<!-- END ADDITIONAL FIELD -->
 		
 		
-4. (Optional) Manually update $OTRS_HOME/var/httpd/htdocs/skins/Customer/default/css/Core.Login.css 
+4) (Optional) Manually update $OTRS_HOME/var/httpd/htdocs/skins/Customer/default/css/Core.Login.css 
 
-	Increase height for example 400px for #Slider and #PreLogin. Play around with the css to suit your need.  
-	
+	Increase height for example 400px for #Slider and #PreLogin. Play around with the css to suit your need.    
+  
 
+5) All modified files has been tag with *BEGIN ADDITIONAL FIELD* and *END ADDITIONAL FIELD*	   
 
+  
  [![1.png](https://i.postimg.cc/FKQKdjX2/1.png)](https://postimg.cc/HrBmF8x2)  
  
  [![2.png](https://i.postimg.cc/JhczbG1t/2.png)](https://postimg.cc/rdsTTyRL)  
