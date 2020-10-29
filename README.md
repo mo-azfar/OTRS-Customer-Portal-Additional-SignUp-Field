@@ -79,7 +79,7 @@
 	Increase height for example 400px for #Slider and #PreLogin. Play around with the css to suit your need.    
   
 
-5) All modified files has been tag with *BEGIN ADDITIONAL FIELD* and *END ADDITIONAL FIELD*	   
+5) All modified files has been tag with **BEGIN ADDITIONAL FIELD** and **END ADDITIONAL FIELD**	   
 
   
  [![1.png](https://i.postimg.cc/FKQKdjX2/1.png)](https://postimg.cc/HrBmF8x2)  
