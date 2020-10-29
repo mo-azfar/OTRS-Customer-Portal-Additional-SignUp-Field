@@ -2,7 +2,9 @@
 - Based on OTRS CE 6.0.30  
 - Add another field at OTRS Customer Portal Registration / Sign-Up Page  
 
-
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MohdAzfar?locale.x=en_US)  
+  
+  
 1) For example, UserMobile and UserCountry field (based on Config.pm / Defaults.pm),
 
 		[ 'UserMobile',       Translatable('Mobile'),              'mobile',         1, 0, 'var', '', 0, undef, undef ],
