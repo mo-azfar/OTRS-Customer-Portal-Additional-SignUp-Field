@@ -9,12 +9,13 @@
 		[ 'UserCountry',      Translatable('Country'),             'country',        1, 0, 'var', '', 0, undef, undef ],
 
 
-2) For Mobile, since this field is text input field,
+2) For Mobile field, since this field is text input field,
 
-	a) at Custom/Kernel/Output/HTML/Templates/Standard/CustomerLogin.tt, inside Signup div
+	a) at Custom/Kernel/Output/HTML/Templates/Standard/CustomerLogin.tt,  
+		inside Signup div
 
-		***Input name and id must be same with the definition at Config mapping (e.g: Mobile)!!***
-		***You may want to build additional css class to check on validation value***
+	***Input name and id must be same with the definition at Config mapping (e.g: Mobile)!!***  
+	***You may want to build additional css class to check on validation value***  
 
 		<!-- BEGIN ADDITIONAL FIELD -->
 		<div class="NewLine">
@@ -25,11 +26,11 @@
 
 
 
-3) For Country, I may want to make it as dropdown selection
+3) For Country, I may want to make it as dropdown selection.
 
-	a) defined it first in Custom/Kernel/Output/HTML/Layout.pm
+	a) So, defined it first in Custom/Kernel/Output/HTML/Layout.pm
 
-		Just before this block,
+	Just before this block,
 	
 		$Self->Block(
 			Name => 'CreateAccountLink',
@@ -37,7 +38,7 @@
 		);
 	
 	
-		Add,
+	Add,
 	
 		#BEGIN ADDITIONAL FIELD
 		my $CountryRef = [
@@ -46,7 +47,8 @@
 			'Indonesia',
 			'Thailand',
 		];
-				
+		
+		##***Input name and id must be same with the definition at Config mapping (e.g: Country)!!***
 		$Param{UserCountry} = $Self->BuildSelection(
 			Data            => $CountryRef,       
 			Name            => 'Country',        # name of element
