@@ -5,8 +5,8 @@
 
 1) For example, UserMobile and UserCountry field (based on Config.pm / Defaults.pm),
 
-	[ 'UserMobile',       Translatable('Mobile'),              'mobile',         1, 0, 'var', '', 0, undef, undef ],
-	[ 'UserCountry',      Translatable('Country'),             'country',        1, 0, 'var', '', 0, undef, undef ],
+		[ 'UserMobile',       Translatable('Mobile'),              'mobile',         1, 0, 'var', '', 0, undef, undef ],
+		[ 'UserCountry',      Translatable('Country'),             'country',        1, 0, 'var', '', 0, undef, undef ],
 
 
 2) For Mobile, since this field is text input field,
